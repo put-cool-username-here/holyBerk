@@ -1,0 +1,42 @@
+
+body {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.ds {
+
+    margin-bottom: 30%;
+
+}
+
+@keyframes example {
+
+    from {left: -30%;}
+    to {left: 0%;}
+
+}
+
+@keyframes example2 {
+
+    0% {opacity: 0%;}
+
+    100% {opacity: 100%;}
+}
+
+.b {
+    width: 80% ;
+    margin-bottom: 30%;
+
+    opacity: 0;
+    
+    
+
+}
+
+.show {
+    position: relative;
+    animation: example 1s ease-in-out forwards, example2 1s ease-out forwards;
+    opacity: 1;
+}
